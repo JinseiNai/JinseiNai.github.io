@@ -1,0 +1,79 @@
+/* First Section, Header */
+/* Nav Bar */
+#icon {
+    margin-top: 0;
+}
+
+.nav {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.nav a {
+    margin: 0 8px;
+}
+
+#navbar {
+    padding-top: 15px;
+}
+/* --------------- */
+.heading {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.firstSection {
+    background-image: url("../images/laptop-coding.jpeg");
+    background-size: cover;
+    background-position: center;
+    /* background-color: slategray; */
+    padding-bottom: 50px;
+}
+
+.firstSection * {
+    color: white;
+}
+/* --------------- */
+
+/* Footer Section */
+.footerSection {
+    text-align: center;
+    background-color: rgb(44, 43, 43);
+    padding: 50px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.footerSection h5 {
+    margin-top: 0;
+}
+
+.footerSection * {
+    color: white;
+}
+
+.footerNav {
+    margin: 25px;
+}
+
+.footerNav a {
+    margin: 0 20px;
+}
+
+#copyright {
+    font-size: .7em;
+    color: slategray;
+}
+
+.socialMediaIcons {
+    margin-top: 20px;
+}
+
+.socialMediaIcons a {
+    margin: 0 10px;
+}
+/* ---------------- */
