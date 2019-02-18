@@ -1,4 +1,4 @@
-/* First Section, Header */
+/* Jumbotron, Header */
 /* Nav Bar */
 #icon {
     margin-top: 0;
@@ -25,17 +25,76 @@ h1 {
     margin-top: 0;
 }
 
-.firstSection {
+.jumbotron {
     background-image: url("../images/laptop-coding.jpeg");
     background-size: cover;
     background-position: center;
-    /* background-color: slategray; */
+    /* height: 500px; */
     padding-bottom: 50px;
 }
 
-.firstSection * {
+.jumbotron * {
     color: white;
 }
+/* --------------- */
+
+/* First Section */
+.firstSection {
+    /* display: inline; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 10%;
+    height: 2px;
+    border: 0;
+    display: inline-block;
+    background: black;
+}
+
+.aboutTitle {
+    display: inline-block;
+}
+
+#aboutText {
+    width: 60%;
+    margin: auto;
+}
+
+#textFiller {
+    line-height: 1.3em;
+    letter-spacing: .2em;
+}
+
+/* --------------- */
+
+/* Second Sectiion */
+.row {
+    margin-bottom: 0;
+}
+
+.secondSection {
+    background-color: lightgray;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.projectTitle {
+    display: inline-block;
+}
+
+#projectDisplay {
+    width: 80%;
+    margin: auto;
+}
+
+.projectImage {
+    max-width: 300px;
+    max-height: 150px;
+    filter: grayscale(100%);
+}
+
 /* --------------- */
 
 /* Footer Section */
@@ -44,7 +103,7 @@ h1 {
     background-color: rgb(44, 43, 43);
     padding: 50px;
     bottom: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
