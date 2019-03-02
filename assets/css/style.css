@@ -114,6 +114,10 @@ hr {
     filter: grayscale(100%);
 }
 
+.row1 {
+    margin-bottom: 50px;
+}
+
 /* --------------- */
 
 /* Third Section */
