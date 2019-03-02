@@ -133,6 +133,20 @@ hr {
 
 /* --------------- */
 
+/* Fourth Section */
+.fourthSection {
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.contactTitle {
+    display: inline-block;
+}
+
+/* --------------- */
+
 /* Footer Section */
 .footerSection {
     text-align: center;
