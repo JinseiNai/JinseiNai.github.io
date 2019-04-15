@@ -1,6 +1,7 @@
 .white {
     color: white;
 }
+
 /* Jumbotron, Header */
 /* Nav Bar */
 #icon {
@@ -19,6 +20,7 @@
 #navbar {
     padding-top: 15px;
 }
+
 /* --------------- */
 .heading {
     text-align: center;
@@ -44,6 +46,7 @@ h1 {
 .jumboTitle {
     display: inline-block;
 }
+
 /* --------------- */
 
 /* First Section */
@@ -149,6 +152,23 @@ hr {
     display: inline-block;
 }
 
+.contactInfo {
+    width: 33%;
+    margin: auto;
+    /* box-sizing: border-box; */
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+::placeholder {
+    color: rgb(168, 164, 164);
+}
+
+textarea {
+    resize: none;
+    border: none;
+}
+
 /* --------------- */
 
 /* Footer Section */
@@ -189,4 +209,5 @@ hr {
 .socialMediaIcons a {
     margin: 0 10px;
 }
+
 /* ---------------- */
