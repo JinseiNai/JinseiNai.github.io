@@ -113,7 +113,7 @@ hr {
 
 .projectImage {
     max-width: 300px;
-    max-height: 150px;
+    max-height: 130px;
     filter: grayscale(100%);
 }
 
@@ -150,6 +150,14 @@ hr {
 
 .contactTitle {
     display: inline-block;
+}
+
+#contact-arrow {
+    margin-top: 0;
+}
+
+.enlarge {
+    font-size: 35px;
 }
 
 .contactInfo {
