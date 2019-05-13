@@ -117,7 +117,7 @@ hr {
 }
 
 .projectImage {
-    max-width: 300px;
+    max-width: 220px;
     max-height: 130px;
     filter: grayscale(100%);
 }
