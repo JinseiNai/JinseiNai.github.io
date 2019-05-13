@@ -2,6 +2,11 @@
     color: white;
 }
 
+a:hover,
+i:hover {
+    color: lightblue;
+}
+
 /* Jumbotron, Header */
 /* Nav Bar */
 #icon {
@@ -115,6 +120,10 @@ hr {
     max-width: 300px;
     max-height: 130px;
     filter: grayscale(100%);
+}
+
+.projectImage:hover {
+    filter: none;
 }
 
 .row1 {
