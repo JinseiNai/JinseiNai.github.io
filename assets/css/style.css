@@ -147,6 +147,12 @@ hr {
     margin-bottom: 50px;
 }
 
+#resumeImg {
+    max-width: 300px;
+    max-height: 450px;
+    border: solid 1px black;
+}
+
 /* --------------- */
 
 /* Fourth Section */
