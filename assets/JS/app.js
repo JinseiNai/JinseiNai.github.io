@@ -8,3 +8,20 @@ function showEmail() {
     }
     btn.style.display = "none";
 }
+
+// Modal
+let modal = document.getElementById("myModal");
+let img = document.getElementById("resumeImg");
+let modalImg = document.getElementById("modalResume");
+
+img.onclick = function() {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+}
+
+// Closing modal
+let close = document.getElementsByClassName("close")[0];
+
+close.onlick = function() {
+    modal.style.display = "none";
+}
