@@ -80,14 +80,29 @@ hr {
     display: inline-block;
 }
 
+#selfie {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 2px black solid;
+    filter: grayscale(25%)
+}
+
+.portraitDisplay {
+    margin-bottom: 25px;
+}
+
 #aboutText {
-    width: 60%;
+    width: 45%;
     margin: auto;
 }
 
-#textFiller {
+.textFiller {
     line-height: 1.3em;
-    letter-spacing: .2em;
+    letter-spacing: .05em;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* --------------- */
@@ -123,7 +138,8 @@ hr {
     filter: grayscale(100%);
 }
 
-.projectImage:hover {
+.projectImage:hover,
+#selfie:hover {
     filter: none;
 }
 
