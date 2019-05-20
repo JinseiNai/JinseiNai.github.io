@@ -20,8 +20,6 @@ img.onclick = function() {
 }
 
 // Closing modal
-let close = document.getElementsByClassName("close")[0];
-
-close.onlick = function() {
+function closing() {
     modal.style.display = "none";
 }
