@@ -143,9 +143,9 @@ hr {
     filter: none;
 }
 
-/* .row1 {
+.row1 {
     margin-bottom: 50px;
-} */
+}
 
 /* --------------- */
 
@@ -289,6 +289,10 @@ textarea {
     margin: 0 20px;
 }
 
+li {
+    display: inline-block;
+}
+
 #copyright {
     font-size: .7em;
     color: slategray;
@@ -300,6 +304,26 @@ textarea {
 
 .socialMediaIcons a {
     margin: 0 10px;
+}
+
+/* ---------------- */
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    .projectImage {
+        max-height: 250px;
+        margin-bottom: 25px;
+    }
+
+    .projectImage,
+    #selfie {
+        filter: none;
+    }
+
+    .row1 {
+        margin-bottom: 0px;
+    }
 }
 
 /* ---------------- */
