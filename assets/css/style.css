@@ -26,6 +26,15 @@ i:hover {
     padding-top: 15px;
 }
 
+.topNav {
+    text-align: right;
+}
+
+.topNav li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /* --------------- */
 .heading {
     text-align: center;
@@ -50,6 +59,15 @@ h1 {
 
 .jumboTitle {
     display: inline-block;
+}
+
+.jumboTitle,
+h1 {
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 /* --------------- */
@@ -327,6 +345,14 @@ textarea {
 
     .navList {
         margin-bottom: 10px;
+    }
+
+    .topNav {
+        text-align: center;
+    }
+
+    #aboutText {
+        width: 75%;
     }
 }
 
